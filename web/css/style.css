@@ -1,4 +1,7 @@
 /* all pages */
+body{
+    background-color: lightblue;
+}
 
 footer {
   margin: 20px;
