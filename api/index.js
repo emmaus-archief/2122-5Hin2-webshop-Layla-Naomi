@@ -178,7 +178,7 @@ function checkoutOrder(request, response) {
   articleTable += "<tr><th>Id</th><th>Code</th><th>Naam</th><th>Prijs per stuk</th><th>Aantal</th><th>Aantal * prijs</th></tr>"
   for (let i in productIds) { // herhaal voor elke index van productIds[]
     let id = productIds[i]
-    const sqlOpdracht = db.prepare('SELECT * FROM products WHERE id = ?')
+    const sqlOpdracht = db.prepare('SELECT * FROM products ORDER BY name ')
     row = sqlOpdracht.get(id)
     let aantalMaalPrijs = productAmounts[i] * row.price
     articleTable += `<tr><td>${row.id}<tr><td>${row.code}</td><td>${row.name}</td><td>€ ${row.price.toFixed(2)}</td><td>${productAmounts[i]}</td><td>€ ${aantalMaalPrijs}</td></tr>`
@@ -272,3 +272,4 @@ function sendMail(subject, body, recipent) {
   });
 
 } 
+
