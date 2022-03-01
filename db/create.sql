@@ -10,6 +10,7 @@ CREATE TABLE products (
   price NUMERIC(10, 2),
   maten NUMERIC (3),
   rating_id INTEGER 
+  
 );
 
 CREATE TABLE ratings (
@@ -17,6 +18,11 @@ CREATE TABLE ratings (
   name VARCHAR(255),
 );
 
+  CREATE TABLE platforms (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name VARCHAR(255)
+  );
+ 
 
   
 CREATE TABLE information (
@@ -59,6 +65,12 @@ insert into ratings (name) values ('mooie kleuren');
 insert into ratings (name) values ('past perfect');  
 
 
+insert into platforms (name) values ('instagram'); 
+insert into platforms (name) values ('kardashian.com'); 
+insert into platforms (name) values ('kylieskin');  
+insert into platforms (name) values ('kylielips');   
+  
+  
 
 
 
