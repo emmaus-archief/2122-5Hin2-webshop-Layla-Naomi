@@ -28,12 +28,12 @@ CREATE TABLE information (
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
-insert into products (name, description, code, price) values ('Look-a-like 1', 'wil je dezelfde outfit aan als Taylor Swift dan is deze perfect voor jou, deze outfit heet ookwel taylors version met de kleur rood als thema, cursus id.', '816905633-0', 70);
-insert into products (name, description, code, price) values ('Look-a-like 2', 'Wil je dezelfde outfit aan als Ariana Grande dan is deze outfit perfect voor jou. In drie maten beschikbaar!.', '077030122-3', 50);
-insert into products (name, description, code, price) values ('Look-a-like 3', 'Dit zijn dezelfde accesoires als uit de serie Gossip Girl. veel goedkoper dan in de bijenkorf.', '445924201-X', 20);
-insert into products (name, description, code, price) values ('Look-a-like 4', 'Wil je dezelfde outfit aan als Justin Bieber dan is deze outfit voor jou!,Dit is een gender neutrale outfit,in 4 maten beschkibaar dus ook voor jongens.', '693155505-7', 50);
-insert into products (name, description, code, price) values ('Look-a-like 5', 'Wil jij dezelfde sneakers als de celebrities dan is dit voor jou. in verschillende kleuren beschikbaar.Van maat 38 tot maat 40 beschikbaar.', '686928463-6',70);
-insert into products (name, description, code, price) values ('Look-a-like 6', 'Wil jij dezelfde skincare als de kardashians dan is dit pakket voor jou, dermatologisch getest, voor alle huidtypes beschikbaar.', '492662523-7', 25);
+insert into products (name, description, code, price,maten) values ('Look-a-like 1', 'wil je dezelfde outfit aan als Taylor Swift dan is deze perfect voor jou, deze outfit heet ookwel taylors version met de kleur rood als thema, cursus id.', '816905633-0', 70,2);
+insert into products (name, description, code, price,maten) values ('Look-a-like 2', 'Wil je dezelfde outfit aan als Ariana Grande dan is deze outfit perfect voor jou. In drie maten beschikbaar!.', '077030122-3', 50,3);
+insert into products (name, description, code, price,maten) values ('Look-a-like 3', 'Dit zijn dezelfde accesoires als uit de serie Gossip Girl. veel goedkoper dan in de bijenkorf.', '445924201-X', 20,1);
+insert into products (name, description, code, price,maten) values ('Look-a-like 4', 'Wil je dezelfde outfit aan als Justin Bieber dan is deze outfit voor jou!,Dit is een gender neutrale outfit,in 4 maten beschkibaar dus ook voor jongens.', '693155505-7', 50,4);
+insert into products (name, description, code, price,maten) values ('Look-a-like 5', 'Wil jij dezelfde sneakers als de celebrities dan is dit voor jou. in verschillende kleuren beschikbaar.Van maat 38 tot maat 40 beschikbaar.', '686928463-6',70,3);
+insert into products (name, description, code, price,maten) values ('Look-a-like 6', 'Wil jij dezelfde skincare als de kardashians dan is dit pakket voor jou, dermatologisch getest, voor alle huidtypes beschikbaar.', '492662523-7', 25,1);
 
 
 
