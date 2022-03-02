@@ -25,12 +25,12 @@ CREATE TABLE ratings (
  
 
   
-CREATE TABLE information (
+/*CREATE TABLE information (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   code VARCHAR(15),
   name VARCHAR(255),
-  description TEXT,
-  );
+  description TEXT
+  );*/
 
 --
 -- populate with data
@@ -81,14 +81,11 @@ insert into platforms (name) values ('kylielips');
   
 
 
-  
+/*
 insert into information (name, description, code,maten) values ('Look-a-like 1', 'taylor swift', '816905633-0',2);
 insert into information (name, description, code,maten) values ('Look-a-like 2', 'ariana grande', '077030122-3',2);
 insert into information (name, description, code,maten) values ('Look-a-like 3', 'gossip girl', '445924201-X',1);
 insert into information (name, description, code,maten) values ('Look-a-like 4', 'justin bieber', '693155505-7',4);
 insert into information (name, description, code,maten) values ('Look-a-like 5', 'sneakers', '686928463-6',3);
 insert into information (name, description, code,maten) values ('Look-a-like 6', 'kardashians', '492662523-7',1);
-
-
-
-...
+*/

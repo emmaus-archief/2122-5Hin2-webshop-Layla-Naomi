@@ -28,7 +28,7 @@ app.use(express.static('../web'))
 app.get('/api/echo', echoRequest)
 app.get('/api/categories', getCategories)
 app.get('/api/products', getProducts)
-// app.get('/api/ratings', getRatings)
+app.get('/api/ratings', getRatings)
 app.get('/api/products/:id', getProductById)
 //app.get('/api/products/:id/related', db.getRelatedProductsById)
 // our API is not protected...so let's not expose these
@@ -76,7 +76,7 @@ function getProducts(request, response) {
 }
 
 
-/*function getRatings(request, response) {
+function getRatings(request, response) {
   console.log('API ontvangt /api/ratings/', request.query)
   let data = []
   const sqlOpdracht = db.prepare('SELECT ratings.name AS name FROM ratings')
@@ -84,7 +84,7 @@ function getProducts(request, response) {
   // console.log(JSON.stringify(data, null, 2))
   response.status(200).send(data)
   console.log('API verstuurt /api/ratings/')
-}*/
+}
 
 
 
