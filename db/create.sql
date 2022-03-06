@@ -65,10 +65,10 @@ insert into ratings (id, name) values (3, 'mooie kleuren');
 insert into ratings (id, name) values (4, 'past perfect');  
 
 
-insert into platforms (id,name) values ('instagram'); 
-insert into platforms (id, name) values ('kardashian.com'); 
-insert into platforms id, name) values ('kylieskin');  
-insert into platforms (name) values ('kylielips');   
+insert into platforms (name) values ('instagram'); 
+insert into platforms ( name) values ('kardashian.com'); 
+insert into platforms ( name) values ('kylieskin');  
+insert into platforms ( name) values ('kylielips');   
   
   
 
